@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>中文笔画查询助手</title>
+		<script src="./modernizr.js" type="text/javascript"></script>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=false;">
+		<link rel="stylesheet" href="./normalize.css">
+		<link rel="stylesheet" href="./style.css">
+		<script src="./prefixfree.min.js"></script>
+	</head>
+	<body>
+		<div class="container input-container">
+
+			<p class="tryme">可以尝试输入以下文字:
+				<a href="#">火</a>
+				<a href="#">水</a>
+				<a href="#">心</a>
+				<a href="#">爱</a>
+				<a href="#">中国</a>
+				<a href="#">汉字</a>
+				<a href="#">学习</a>
+				<a href="#">我爱你</a>
+				<a href="#">早上好</a>
+			</p>
+			<a href="index.html"><h5>Click to switch to English version</h5></a>
+			<input type="text" id="input" placeholder="中文" value="请输入中文字" />
+
+		</div>
+
+		<div class="error-container">找不到某些字符。
+		<br>输入只接受汉字，
+试试下面的一个：火 , 水 , 日 , 月</div>
+
+		<p class="help">
+			如果粘贴了多个字符，它们的顺序可能有点错误。
+			<br> 
+			按
+			<code>SPACE</code> 
+			一次，他们应该按照正确顺序排列。
+			</p>
+
+		<div class="container output-container">
+
+		</div>
+
+		<p class="help">点击一个汉字可以直接链接到它。</p>
+
+
+		<!-- partial -->
+		<script src='./jquerymin.js'></script>
+		<script src="./script.js"></script>
+
+	</body>
+</html>

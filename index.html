@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>中文笔画查询助手</title>
+		<script src="./modernizr.js" type="text/javascript"></script>
+		
+		<meta name="viewport" content="width=device-width, user-scalable=false;">
+		<link rel="stylesheet" href="./normalize.css">
+		<link rel="stylesheet" href="./style.css">
+		<script src="./prefixfree.min.js"></script>
+	</head>
+	<body>
+		<div class="container input-container">
+
+			<p class="tryme">Try some of these:
+				<a href="#">火(Fire)</a>
+				<a href="#">水(Water)</a>
+				<a href="#">心(Heart)</a>
+				<a href="#">爱(Love)</a>
+				<a href="#">中国(China)</a>
+			</p>
+			<a href="chinese.html"><h5>点击切换中文版</h5></a>
+			<input type="text" id="input" placeholder="中文" value="Enter the Chinese to query" />
+
+		</div>
+
+		<div class="error-container">Some characters could not be found.
+		<br>The input only accepts Chinese Characters,
+			try one of these: 火 , 水 , 日 , 月</div>
+
+		<p class="help">
+			If you pasted more than one character, they might be in slightly the wrong order.
+			<br> 
+			Press
+			<code>SPACE</code> 
+			once and they should be arranged correctly.
+			</p>
+
+		<div class="container output-container">
+
+		</div>
+
+		<p class="help">Click on a character for a direct-link to it.</p>
+
+
+		<!-- partial -->
+		<script src='./jquerymin.js'></script>
+		<script src="./script.js"></script>
+
+	</body>
+</html>
